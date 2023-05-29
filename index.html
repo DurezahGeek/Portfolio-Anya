@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio website</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="programacao.png" type="imagem/png">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Portfó<span>lio</span></div>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul id="menuList">
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="background" id="Inicio"></div>
+    <div class="Main">
+        <h4>Olá, meu nome é</h4>
+        <h1>Anya<span>Forger </span></h1>
+        <h3>E estou desenvolvendo o meu portfólio.</h3>
+    </div>
+    </div>
+
+    <section class="background-color-Sobre" id="sobre-mim">
+        <div class="main-sobre">
+            <img src="minhaimagem.png">
+            <div class="Text-sobre">
+                <h2>Sobre-Mim</h2>
+                <h5>Desenvolvedora <span>web</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolores aliquid.
+                    Iste velit nam dolores unde deserunt animi debitis! Provident esse nemo odit obcaecati animi rerum
+                    tempore tempora.
+                    Nam maxime earum iste ullam, iure magni corporis cumque totam tempora dignissimos aliquam!
+                    Aliquid doloribus praesentium sit neque incidunt architecto soluta sed.</p>
+                <a href="https://wa.me/seunúmero" target="_blank"><!--Coloque seu numero depois de wa.me-->
+                    <button type="button">
+                        <i class="fab fa-whatsapp"></i> Vamos conversar
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="projetos"></div>
+    <div class="Container-projetos">
+        <div class="title">
+            <h2 id="projetos">Meus Projetos</h2>
+        </div>
+
+        <div class="Caixa">
+            <div class="Card">
+                <i class="fas fa-clock"></i>
+                <h5>Desenvolvedora web</h5>
+                <div class="Paragrafo-button">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum doloribus amet sit odit voluptas odio? Deserunt culpa enim nemo unde quos rerum
+                        repellendus magni veniam.</p>
+                    <button type="button"><a href="#" class="ler-mais">Ler-Mais</a></button>
+
+                </div>
+            </div>
+
+            <div class="Card">
+                <i class="fas fa-user"></i>
+                <h5>Desenvolvedora web</h5>
+                <div class="Paragrafo-button">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum doloribus amet sit odit voluptas odio? Deserunt culpa enim nemo unde quos rerum
+                        repellendus magni veniam. </p>
+                    <button type="button"><a href="#" class="ler-mais">Ler Mais</a></button>
+                </div>
+            </div>
+
+            <div class="Card">
+                <i class="fas fa-bell"></i>
+                <h5>Desenvolvedora web</h5>
+                <div class="Paragrafo-button">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum doloribus amet sit odit voluptas odio? Deserunt culpa enim nemo unde quos rerum
+                        repellendus magni veniam.</p>
+                    <button type="button"><a href="#" class="ler-mais">Ler Mais</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="habilidades"></div>
+    <div class="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML<i class="fab fa-html5"></i>: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime labore unde quidem molestiae, obcaecati possimus eius nulla sint est esse?.</li>
+            <br>
+            <li>CSS<i class="fab fa-css3-alt"></i>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore non
+                voluptates laboriosam! </li>
+            <br>
+            <li>Javascript<i class="fab fa-js-square"></i>: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </li>
+        </ul>
+    </div>
+
+
+    <footer>
+        <h6 id="contato">Anya Forger</h6>
+        <p>Minhas redes socias.</p>
+        <div class="Redes-sociais">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="end">AnyaForger &copy; 2023 | &reg; Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
